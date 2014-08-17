@@ -1,0 +1,9 @@
+// Meu segundo programa em C++.
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	cout << "Hello World!\n";
+	cout << "Segundo programa em C++!";
+}
