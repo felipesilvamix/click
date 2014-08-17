@@ -1,0 +1,18 @@
+// Inicialização de vairaveis
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int a = 5; //iniciando com o valor 5;
+	int b (3); // iniiando com o valor 3;
+	int c (2); // iniiando com o valor 2;
+	int result; // iniciando com o valor indeterminado;
+	
+	a = a + b;
+	result = a - c;
+	cout << result;
+	
+		//fim do programa.
+	return 0;
+}
