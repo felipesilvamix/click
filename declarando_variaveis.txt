@@ -1,0 +1,22 @@
+// Meu terceiro programa em C++.
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	// Declarando Variaveis 
+	int a, b;
+	int result;
+	
+	a = 5;
+	b = 2;
+	a = a + 1;
+	result = a - b;
+	
+	// imprimindo resultado
+	
+	cout << result;
+	
+	//fim do programa.
+	return 0;
+}
