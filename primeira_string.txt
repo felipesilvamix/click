@@ -1,0 +1,14 @@
+// Minha primeira string
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+	string mystring;
+	mystring = "Esta é uma string";
+	cout << mystring;
+	
+		//fim do programa.
+	return 0;
+}
