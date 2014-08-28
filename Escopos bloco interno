@@ -1,0 +1,22 @@
+//escopos bloco interno
+#include <iostream>
+using namespace std;
+
+int main () {
+	int x = 10;
+	int y = 20;
+	{
+		int x; // ok inner scope.
+		int y;
+		x = 50; // ok âmbito interno x.
+		y = 50; // define o valor para (externo) y.
+		cout << "bloco interno:\n";
+		cout << "x: " << x << '\n';
+		cout << "y: " << y << '\n';
+	}
+	cout << "bloco externo:\n";
+	cout << "x: " << x << '\n';
+	cout << "y: " << y << '\n';
+	return 0;
+	
+}
